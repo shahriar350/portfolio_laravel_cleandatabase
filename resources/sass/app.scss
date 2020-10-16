@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-vue/src/index.scss';
+
+$enable-responsive-font-sizes: true;
+
+.normal-font{
+    @include font-size(1.1rem) ;
+}
+.header{
+    @include font-size(1.3rem);
+}
+

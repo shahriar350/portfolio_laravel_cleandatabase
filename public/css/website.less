@@ -1,0 +1,107 @@
+.font1 {
+    font-family: 'Mina', sans-serif;
+}
+body {
+    .font1 !important;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    color: #262626;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(241, 241, 241, 0.23);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+body {
+    background: whitesmoke;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .second_bar{
+        height: auto;
+        overflow-y: hidden;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        overflow: hidden;
+    }
+    .second_bar , .first_col{
+        height: 100vh;
+        overflow-y: scroll;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    body {
+        overflow: hidden;
+    }
+    .second_bar, .first_col{
+        height: 100vh;
+        overflow-y: scroll;
+    }
+}
+
