@@ -15,6 +15,7 @@ HOW TO INSTALL STEP BY STPE:
     <li>composer install</li>
     <li>php artisan key:generate</li>
     <li>Convert .env.example to .env</li>
+    <li>Change your website name at .env file APP_URL</li>
     <li>Setting to .env file DB_USERNAME as database user name, DB_PASSWORD as database connection password and DB_DATABASE as database name</li>
      <li>After run: php artisan migrate</li>
      <li>php artisan serve</li>
