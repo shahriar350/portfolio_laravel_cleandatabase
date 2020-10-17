@@ -14,9 +14,11 @@ HOW TO INSTALL STEP BY STPE:
     <li>Make sure laravel and node js install to your machine</li>
     <li>composer install</li>
     <li>php artisan key:generate</li>
-    <li> <em> To create a admin:</em> php artisan create:user</li>
-    <li>php artisan serve</li>
     <li>Convert .env.example to .env</li>
+    <li>Setting to .env file DB_USERNAME as database user name, DB_PASSWORD as database connection password and DB_DATABASE as database name</li>
+     <li>After run: php artisan migrate</li>
+     <li>php artisan serve</li>
+    
 </ul>
 Goto '/admin' and you redirect to login page. After authentication, you can maintain website fully from admin panel.
 
