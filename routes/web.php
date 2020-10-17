@@ -29,7 +29,7 @@ Route::post('/admin/authentication/attempt', [\App\Http\Controllers\Admin\AuthCo
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'throttle:admin']], function () {
     Route::get('/', function () {
-        return view('admin.index');
+        return redirect()->route('banner.index');
     })->name('admin.index');
     Route::get('/user', function () {
         return view('admin.components.user');

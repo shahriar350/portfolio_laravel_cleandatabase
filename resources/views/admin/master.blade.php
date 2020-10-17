@@ -20,7 +20,7 @@
                     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
                     <b-collapse id="nav-collapse" is-nav>
                         <b-navbar-nav>
-                            <b-nav-item class="{{ request()->is('admin') ? 'active' : '' }}" href="{{ route('admin.index') }}"><b-icon icon="laptop" class="mr-2"></b-icon>Home</b-nav-item>
+
                             <b-nav-item class="{{ request()->is('admin/banner') ? 'active' : '' }}" href="{{ route('banner.index') }}"><b-icon icon="images" class="mr-2"></b-icon>Banner</b-nav-item>
                             <b-nav-item class="{{ request()->is('admin/cvmaker') ? 'active' : '' }}" href="{{ route('cvmaker.index') }}"><b-icon icon="file-earmark-text" class="mr-2"></b-icon>CV Comp.</b-nav-item>
                             <b-nav-item class="{{ request()->is('admin/blog') ? 'active' : '' }}" href="{{ route('blog.index') }}"><b-icon icon="broadcast" class="mr-2"></b-icon>Blog</b-nav-item>

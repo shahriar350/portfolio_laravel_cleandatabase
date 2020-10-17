@@ -11,8 +11,6 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('index-page', require('./admin/index').default);
 Vue.component('banner-page', require('./admin/banner').default);
 Vue.component('cv-index-page', require('./admin/cv_index').default);
 Vue.component('blog-page', require('./admin/blog').default);
