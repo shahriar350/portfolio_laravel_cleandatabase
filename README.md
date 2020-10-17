@@ -16,6 +16,7 @@ HOW TO INSTALL STEP BY STPE:
     <li>php artisan key:generate</li>
     <li> <em> To create a admin:</em> php artisan create:user</li>
     <li>php artisan serve</li>
+    li>Convert .env.example to .env</li>
 </ul>
 Goto '/admin' and you redirect to login page. After authentication, you can maintain website fully from admin panel.
 
